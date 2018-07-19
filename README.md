@@ -6,7 +6,13 @@ AceCounter+ 분석 서비스를 사용하기 위한 Android SDK 입니다.
 # 간편 시작하기
 AceCounter+를 가장 쉽게 이용하는 방법입니다.  
 
-Project에 `AceTM-x.x.x.aar` 모듈 추가하기 :  
+ `build.gradle`에 의존성 추가하기 :  
+ ```java
+ dependencies {
+    //..중략..
+    implementation project(':AceTM')
+}
+ ```
 
 AndroidManifest.xml 에 `Application class` 추가 하기 :
 ```java
