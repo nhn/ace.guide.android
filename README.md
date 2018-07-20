@@ -39,3 +39,4 @@ public class MyApplication extends Application {
 * [데이터 수집이 안되는 것 같습니다.](../../wiki/99.FAQ#q--%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91%EC%9D%B4-%EC%95%88%EB%90%98%EB%8A%94-%EA%B2%83-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4)
 * [Deprecate 된 AceTM.init(), AceTM.onCreate()는 계속 사용해도 될까요??](../../wiki/99.FAQ#q--deprecate-%EB%90%9C-acetminit-acetmoncreate%EB%8A%94-%EA%B3%84%EC%86%8D-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%8F%84-%EB%90%A0%EA%B9%8C%EC%9A%94)
 * [배포 전 설치 유입(Install Referrer)동작을 확인하고 싶습니다.](../../wiki/99.FAQ#q--%EB%B0%B0%ED%8F%AC-%EC%A0%84-%EC%84%A4%EC%B9%98-%EC%9C%A0%EC%9E%85install-referrer%EB%8F%99%EC%9E%91%EC%9D%84-%ED%99%95%EC%9D%B8%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%8A%B5%EB%8B%88%EB%8B%A4)
+* [딥 링크(DeepLink)동작을 확인하고 싶습니다.](../../wiki/99.FAQ#q--%EB%94%A5-%EB%A7%81%ED%81%ACdeeplink%EB%8F%99%EC%9E%91%EC%9D%84-%ED%99%95%EC%9D%B8%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%8A%B5%EB%8B%88%EB%8B%A4)
