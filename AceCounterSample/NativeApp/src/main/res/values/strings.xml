@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ace SDK Sample</string>
+    <!-- TODO : 고객님의 AceCounter SID 를 입력해주세요 -->
+    <string name="acecouneter_sid">123456</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Native Sample App"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <!-- TODO : SDK 의 일부 기능에 대한 예시입니다. 실제 구현하실때 원하는 기능을 원하시는 위치에 코드를 삽입해주시면 됩니다.-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SNS 공유 로그 수집"
+        android:onClick="onClickSns"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화 이벤트 로그 수집"
+        android:onClick="onClickTel"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="바로 구매 로그 수집"
+        android:onClick="onClickNow"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="구매 완료 로그 수집"
+        android:onClick="onClickBuyList"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리뷰 로그 수집"
+        android:onClick="onClickReview"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인 로그 수집"
+        android:onClick="onClickLogin"/>
+
+</LinearLayout>
