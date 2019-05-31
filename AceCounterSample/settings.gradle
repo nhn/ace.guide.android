@@ -1,1 +1,1 @@
-include ':NativeApp', ':HybridApp', ':AceTM-1.2.1'
+include ':NativeApp', ':HybridApp', ':AceTM'

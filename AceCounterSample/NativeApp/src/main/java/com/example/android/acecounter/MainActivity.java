@@ -15,24 +15,19 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //TODO : [선택] Application의 초기화 부분에서 자동 수집(setAutoPageView)을 사용하시지 않을 경우
-        //아래의 코드를 각 Activity 마다 직접 입력해주셔야 합니다.
+        // TODO : [선택] Application의 초기화 부분에서 자동 수집(setAutoPageView)을 사용하시지 않을 경우
+        // 아래의 코드를 각 Activity 마다 직접 입력해주셔야 합니다.
 
-        //AceTM.pv(this);
-        //또는 AceTM.pv(this, "MainActivity");
+        // AceTM.pv(this);
+        // 또는 AceTM.pv(this, "MainActivity");
     }
 
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        //TODO : [필수] 유입정보를 확인하기 위한 필수 설정입니다. 반드시 추가해주세요.
         AceTM.setNewIntent(this, intent);
     }
 
-    /**
-     * 일부 기능에 대한 예시입니다. 상세 기능은 메뉴얼을 참조 해주세요.
-     * 실제 구현하실때 고객님 어플리케이션의 원하시는 위치에 코드를 삽입 해주시면 됩니다.
-     */
     public void onClickSns(View view) {
         AceTM.sns(this, Integer.toString((int) (Math.random() * 100000)), "페이스북");
     }
